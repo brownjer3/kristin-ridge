@@ -133,6 +133,29 @@ The website has been fully customized with Kristin's actual information:
 - Images should be placed in `/public` directory
 - Resume PDF should be named `resume.pdf` in `/public`
 
+## Documentation Section (/docs)
+
+The site includes a comprehensive documentation section with career transition resources:
+
+### Content Structure
+- **Career Transition Guide**: Overview, mindset, and 30-60-90 day action plans
+- **Skills & Roles Guide**: Skills translation matrix and detailed role exploration  
+- **Practical Guides**: Interview preparation, learning resources, salary negotiation
+
+### Implementation
+- Interactive markdown viewer with sidebar navigation
+- Responsive design with mobile-friendly drawer
+- Auto-expands relevant folders on load
+- Custom markdown renderer supporting code blocks, tables, and lists
+
+### Updating Documentation
+To update the career transition guides, modify the `mockDocs` array in `app/docs/page.tsx`. Each document uses markdown formatting and supports:
+- Headers (# ## ###)
+- Lists (ordered and unordered)
+- Code blocks with syntax highlighting
+- Tables
+- Inline code formatting
+
 ## Known Issues & Workarounds
 
 1. **Dependency Installation**: Always use `--legacy-peer-deps` flag due to peer dependency conflicts between React 19 and some Radix UI packages
