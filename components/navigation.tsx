@@ -21,6 +21,7 @@ export function Navigation() {
   }, []);
 
   const navItems = [
+    { href: "/docs", label: "Docs" },
     { href: "#skills", label: "Skills" },
     { href: "#experience", label: "Experience" },
     { href: "#projects", label: "Projects" },
