@@ -7,54 +7,105 @@ import { Button } from "@/components/ui/button";
 export function ProjectsSection() {
   const projects = [
     {
-      title: "Urban Mixed-Use Development",
-      category: "Commercial",
+      title: "Vista Tower (St. Regis Chicago)",
+      category: "High-Rise Residential",
       description:
-        "Led documentation and coordination for a 50,000 sq ft mixed-use development including retail and residential spaces.",
+        "Contributed to BIM coordination and documentation for 101-story mixed-use supertall skyscraper, now Chicago's third-tallest building.",
       skills: [
-        "Project Management",
-        "Technical Documentation",
-        "Stakeholder Coordination",
-        "BIM",
+        "Revit/BIM",
+        "High-Rise Design",
+        "Consultant Coordination",
+        "Construction Documentation",
       ],
       metrics: {
-        budget: "$15M",
-        team: "12 professionals",
+        budget: "$1B+",
+        team: "20+ professionals",
+        duration: "24 months",
+      },
+    },
+    {
+      title: "University of Michigan Campus Design",
+      category: "Educational",
+      description:
+        "Developed master planning and detailed documentation for campus expansion including new academic facilities and student housing.",
+      skills: [
+        "Campus Planning",
+        "Sustainable Design",
+        "Stakeholder Engagement",
+        "LEED Documentation",
+      ],
+      metrics: {
+        budget: "$50M+",
+        team: "15 professionals",
         duration: "18 months",
       },
     },
     {
-      title: "Sustainable Housing Project",
-      category: "Residential",
+      title: "Islamic Cultural Center",
+      category: "Cultural/Thesis",
       description:
-        "Managed design documentation for LEED-certified affordable housing complex with 40 units.",
+        "Graduate thesis project designing a cultural center to bridge neighborhood gaps, featuring prayer space, library, and community facilities.",
       skills: [
-        "Sustainable Design",
-        "Documentation",
-        "Client Relations",
-        "Code Compliance",
+        "Cultural Research",
+        "Community Engagement",
+        "Conceptual Design",
+        "3D Visualization",
       ],
       metrics: {
-        budget: "$8M",
-        team: "8 professionals",
+        budget: "Academic Project",
+        team: "Individual + Advisors",
+        duration: "9 months",
+      },
+    },
+    {
+      title: "Purdue University Housing",
+      category: "Educational",
+      description:
+        "Assisted with design and documentation for new student housing facilities, focusing on sustainable design and modern amenities.",
+      skills: [
+        "Residential Design",
+        "Unit Planning",
+        "Code Compliance",
+        "BIM Coordination",
+      ],
+      metrics: {
+        budget: "$30M",
+        team: "12 professionals",
+        duration: "15 months",
+      },
+    },
+    {
+      title: "Marymount School of New York",
+      category: "Educational",
+      description:
+        "Contributed to renovation and expansion of historic educational facility with focus on preserving character while modernizing spaces.",
+      skills: [
+        "Historic Preservation",
+        "Educational Design",
+        "Sustainable Materials",
+        "Documentation",
+      ],
+      metrics: {
+        budget: "$25M",
+        team: "10 professionals",
         duration: "12 months",
       },
     },
     {
-      title: "Historic Building Renovation",
-      category: "Preservation",
+      title: "The Laurel Residential Tower",
+      category: "High-Rise Residential",
       description:
-        "Created detailed as-built documentation and renovation plans for a historic landmark building.",
+        "Worked on facade design and unit layouts for luxury residential tower in Chicago, optimizing views and natural light.",
       skills: [
-        "Technical Writing",
-        "3D Visualization",
-        "Research",
-        "Problem Solving",
+        "Facade Design",
+        "Unit Optimization",
+        "Luxury Residential",
+        "3D Modeling",
       ],
       metrics: {
-        budget: "$3M",
-        team: "5 professionals",
-        duration: "9 months",
+        budget: "$200M",
+        team: "8 professionals",
+        duration: "10 months",
       },
     },
   ];
@@ -72,7 +123,8 @@ export function ProjectsSection() {
             Featured Projects
           </h2>
           <p className="text-lg text-muted-foreground">
-            Showcasing project management and documentation expertise
+            Showcasing 7+ years of experience across educational, residential,
+            and cultural projects
           </p>
         </motion.div>
 

@@ -33,31 +33,31 @@ export function ContactSection() {
               <h3 className="text-xl font-semibold mb-4">Get in Touch</h3>
               <div className="space-y-3">
                 <a
-                  href="mailto:kristin.ridge@email.com"
+                  href="mailto:kristinridgar@gmail.com"
                   className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
                 >
                   <Mail className="h-5 w-5" />
-                  <span>kristin.ridge@email.com</span>
+                  <span>kristinridgar@gmail.com</span>
                 </a>
                 <a
-                  href="tel:+14155551234"
+                  href="tel:+13173177471"
                   className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
                 >
                   <Phone className="h-5 w-5" />
-                  <span>(415) 555-1234</span>
+                  <span>(317) 317-7471</span>
                 </a>
                 <a
-                  href="https://linkedin.com/in/kristinridge"
+                  href="https://linkedin.com/in/kristin-ridge-54921268"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
                 >
                   <Linkedin className="h-5 w-5" />
-                  <span>linkedin.com/in/kristinridge</span>
+                  <span>linkedin.com/in/kristin-ridge-54921268</span>
                 </a>
                 <div className="flex items-center gap-3 text-muted-foreground">
                   <MapPin className="h-5 w-5" />
-                  <span>San Francisco Bay Area</span>
+                  <span>Chicago, IL</span>
                 </div>
               </div>
             </div>
@@ -67,23 +67,23 @@ export function ContactSection() {
               <ul className="space-y-2 text-muted-foreground">
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1">•</span>
-                  <span>Technical Writer / Documentation Specialist</span>
+                  <span>Project Manager (Construction to Tech)</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1">•</span>
-                  <span>Project Manager / Scrum Master</span>
+                  <span>BIM/Technical Documentation Specialist</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1">•</span>
-                  <span>UX Designer / UX Researcher</span>
+                  <span>Product Manager (Built Environment)</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1">•</span>
-                  <span>Customer Success Manager</span>
+                  <span>UX Researcher (Spatial Design Background)</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1">•</span>
-                  <span>Business Analyst</span>
+                  <span>Business Analyst (Systems Thinking)</span>
                 </li>
               </ul>
             </div>
@@ -97,14 +97,14 @@ export function ContactSection() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild>
-                <a href="mailto:kristin.ridge@email.com">
+                <a href="mailto:kristinridgar@gmail.com">
                   <Mail className="mr-2 h-4 w-4" />
                   Send Email
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild>
                 <a
-                  href="https://linkedin.com/in/kristinridge"
+                  href="https://linkedin.com/in/kristin-ridge-54921268"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

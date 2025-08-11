@@ -9,22 +9,30 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Kristin Ridge | Architecture & Design Portfolio",
+  title:
+    "Kristin Ridge | Architect → Project Manager & Documentation Specialist",
   description:
-    "Experienced architect transitioning to tech, specializing in documentation, project management, and cross-functional collaboration.",
+    "7+ years at Studio Gang, COOKFOX, and DLR Group. Seeking to transition expertise in BIM/Revit documentation and project coordination to tech-focused roles in project management and technical documentation.",
   keywords: [
-    "architect",
-    "technical writer",
+    "Kristin Ridge",
+    "architect to tech",
+    "BIM specialist",
+    "Revit expert",
     "project manager",
-    "UX design",
-    "documentation",
-    "tech transition",
+    "technical documentation",
+    "Studio Gang",
+    "COOKFOX Architects",
+    "DLR Group",
+    "Chicago architect",
+    "career transition",
+    "construction administration",
   ],
   authors: [{ name: "Kristin Ridge" }],
   openGraph: {
-    title: "Kristin Ridge | Architecture & Design Portfolio",
+    title:
+      "Kristin Ridge | Architect → Project Manager & Documentation Specialist",
     description:
-      "Experienced architect transitioning to tech, specializing in documentation, project management, and cross-functional collaboration.",
+      "7+ years at Studio Gang, COOKFOX, and DLR Group. Seeking to transition expertise in BIM/Revit documentation and project coordination to tech-focused roles.",
     type: "website",
   },
 };

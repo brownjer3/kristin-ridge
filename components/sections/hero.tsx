@@ -8,8 +8,8 @@ import { motion } from "framer-motion";
 export function HeroSection() {
   const stats = [
     { icon: Briefcase, value: "7+", label: "Years in Architecture" },
-    { icon: BookOpen, value: "50+", label: "Technical Documents" },
-    { icon: Users, value: "25+", label: "Projects Managed" },
+    { icon: BookOpen, value: "6", label: "Prestigious Firms" },
+    { icon: Users, value: "20+", label: "Projects Delivered" },
   ];
 
   return (
@@ -63,7 +63,7 @@ export function HeroSection() {
               </span>
             </h1>
             <p className="text-xl md:text-2xl lg:text-3xl text-muted-foreground font-medium">
-              Architect Transitioning to Tech
+              Architect → Project Manager | Documentation Specialist
             </p>
           </motion.div>
 
@@ -74,11 +74,11 @@ export function HeroSection() {
             transition={{ delay: 0.4 }}
             className="max-w-3xl mx-auto text-lg md:text-xl text-muted-foreground leading-relaxed"
           >
-            Bringing architectural precision to tech through documentation
-            expertise, project management skills, and a unique perspective on
-            systems design. Ready to leverage my cross-functional collaboration
-            experience in technical writing, UX design, or project management
-            roles.
+            Seven years designing and documenting complex architectural projects
+            at firms like Studio Gang and COOKFOX Architects. Seeking to
+            transition my expertise in BIM/Revit documentation, stakeholder
+            coordination, and sustainable design thinking into tech-focused
+            project management or technical documentation roles.
           </motion.p>
 
           {/* Stats */}

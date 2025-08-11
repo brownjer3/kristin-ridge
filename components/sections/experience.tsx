@@ -6,31 +6,59 @@ import { Building2, Calendar, MapPin } from "lucide-react";
 export function ExperienceSection() {
   const experiences = [
     {
-      title: "Senior Architect",
-      company: "Design Studio ABC",
-      location: "San Francisco, CA",
-      duration: "2020 - 2024",
+      title: "Architectural Designer",
+      company: "BHA pllc",
+      location: "Chicago, IL",
+      duration: "Jan 2023 - Oct 2024",
       description:
-        "Led design and documentation for multiple commercial and residential projects. Managed cross-functional teams of 5-10 professionals.",
+        "Collaborated with interdisciplinary teams on healthcare and educational facilities, leading design documentation and permit submissions.",
       highlights: [
-        "Managed $2M+ construction projects from concept to completion",
-        "Created comprehensive technical documentation for 15+ projects",
-        "Coordinated with contractors, engineers, and city officials",
-        "Streamlined documentation processes, reducing errors by 30%",
+        "Coordinated submissions for $10M+ projects between interior and architecture teams",
+        "Managed permit documentation for healthcare single family residences",
+        "Developed designs for outpatient clinics balancing aesthetics with functionality",
+        "Led collaboration with consultants to push forward project development",
       ],
     },
     {
-      title: "Project Architect",
-      company: "Architecture Firm XYZ",
-      location: "San Francisco, CA",
-      duration: "2017 - 2020",
+      title: "Architectural Designer",
+      company: "DLR Group",
+      location: "Chicago, IL",
+      duration: "Mar 2019 - Aug 2022",
       description:
-        "Developed construction documents and managed client relationships for residential projects.",
+        "Contributed to design and documentation of higher education projects through the full project lifecycle.",
       highlights: [
-        "Produced detailed technical drawings and specifications",
-        "Managed project timelines and budgets",
-        "Presented designs to clients and stakeholders",
-        "Implemented BIM workflows improving efficiency by 25%",
+        "Assisted multiple project teams with design documentation and modeling",
+        "Coordinated with consultants on University of Michigan and Purdue projects",
+        "Developed detailed construction documentation in Revit",
+        "Participated in sustainable design initiatives for LEED certification",
+      ],
+    },
+    {
+      title: "Architectural Designer",
+      company: "Valerie Dewalt Train",
+      location: "Chicago, IL",
+      duration: "Jul 2019 - Apr 2020",
+      description:
+        "Contributed to high-rise residential projects from SD through DD phases, focusing on BIM coordination.",
+      highlights: [
+        "Worked on Vista Tower and The Laurel residential developments",
+        "Coordinated 3D models for 70+ story mixed-use tower",
+        "Assisted with facade design and unit layout optimization",
+        "Collaborated with MEP consultants for system integration",
+      ],
+    },
+    {
+      title: "Architectural Designer",
+      company: "COOKFOX Architects",
+      location: "New York, NY",
+      duration: "Apr 2016 - Oct 2017",
+      description:
+        "Contributed to sustainable design projects with focus on environmental responsibility.",
+      highlights: [
+        "Worked on Marymount School and other educational facilities",
+        "Developed detailed construction documents for green building projects",
+        "Assisted with LEED documentation and sustainable material research",
+        "Coordinated with consultants on biophilic design elements",
       ],
     },
   ];
