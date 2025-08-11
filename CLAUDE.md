@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Context
 
-This is a portfolio website for Kristin Ridge, an architect transitioning to tech roles. The site emphasizes transferable skills from architecture to technology positions including technical writing, project management, UX design, and solutions architecture.
+This is a portfolio website for Kristin Ridge, an architect with 7+ years of experience at prestigious firms (Studio Gang, COOKFOX Architects, DLR Group, BHA pllc, Valerie Dewalt Train) transitioning to tech roles. The site emphasizes her expertise in BIM/Revit documentation, project coordination, and sustainable design, positioning her for project management and technical documentation roles in tech.
 
 ## Development Commands
 
@@ -77,15 +77,48 @@ Most sections use `"use client"` directive for:
 - `@/*` maps to root directory
 - Used for clean imports: `@/components/sections/hero`
 
-## Content Customization Points
+## Current Content Implementation
 
-To update portfolio content, modify these files:
-- `components/sections/hero.tsx` - Name, tagline, statistics
-- `components/sections/skills.tsx` - Skill categories and relevance
-- `components/sections/experience.tsx` - Work history
-- `components/sections/projects.tsx` - Project showcase
-- `components/sections/contact.tsx` - Contact details and target roles
-- `app/layout.tsx` - SEO metadata
+The website has been fully customized with Kristin's actual information:
+
+### Hero Section (`components/sections/hero.tsx`)
+- Professional headshot displayed (`/public/Kristin Ridge LinkedIn.jpeg`)
+- Tagline: "Architect → Project Manager | Documentation Specialist"
+- Statistics: 7+ years, 6 prestigious firms, 20+ projects
+- Resume download linked to `/public/Kristin-Ridge-Resume-2025.pdf`
+
+### Skills Section (`components/sections/skills.tsx`)
+- BIM & Technical Documentation (Revit/BIM expertise)
+- Project Management & Coordination
+- Design Software (Revit, AutoCAD, Rhino, 3DS Max, V-Ray)
+- Stakeholder Collaboration
+- Technical & Problem-Solving
+- Specialized Experience (Educational, Mixed-Use, Historic Preservation)
+
+### Experience Section (`components/sections/experience.tsx`)
+- BHA pllc (Jan 2023 - Oct 2024)
+- DLR Group (Mar 2019 - Aug 2022)
+- Valerie Dewalt Train (Jul 2019 - Apr 2020)
+- COOKFOX Architects (Apr 2016 - Oct 2017)
+
+### Projects Section (`components/sections/projects.tsx`)
+- Vista Tower (St. Regis Chicago) - $1B+ supertall skyscraper
+- University of Michigan Campus Design
+- Islamic Cultural Center (Thesis Project)
+- Purdue University Housing
+- Marymount School of New York
+- The Laurel Residential Tower
+
+### Contact Section (`components/sections/contact.tsx`)
+- Email: kristinridgar@gmail.com
+- Phone: (317) 317-7471
+- LinkedIn: linkedin.com/in/kristin-ridge-54921268
+- Location: Chicago, IL
+- Target Roles: Project Manager, BIM/Technical Documentation Specialist, Product Manager, UX Researcher, Business Analyst
+
+### SEO Metadata (`app/layout.tsx`)
+- Title: "Kristin Ridge | Architect → Project Manager & Documentation Specialist"
+- Keywords include firm names and specific expertise areas
 
 ## Deployment Configuration
 
@@ -110,17 +143,23 @@ To update portfolio content, modify these files:
 
 ## Portfolio Focus Areas
 
-The site is specifically designed to highlight:
-- Documentation and technical writing capabilities
-- Project management experience
-- Visual/spatial thinking skills
-- Cross-functional collaboration
-- Systems design thinking
+The site is specifically designed to highlight Kristin's:
+- **BIM/Revit Expertise**: 7+ years of advanced documentation experience
+- **Project Coordination**: Multi-disciplinary team management across prestigious firms
+- **Sustainable Design**: LEED experience and environmental responsibility focus
+- **Educational & Cultural Projects**: Campus planning and community-focused design
+- **High-Rise Experience**: Vista Tower and luxury residential developments
+- **Technical Documentation**: Construction documents, specifications, and as-builts
 
 Target roles emphasized throughout:
-- Technical Writer/Documentation Specialist
-- Project Manager/Scrum Master
-- UX Designer/Researcher
-- Customer Success Manager
-- Business Analyst
-- Solutions Architect
+- Project Manager (Construction to Tech transition)
+- BIM/Technical Documentation Specialist
+- Product Manager (Built Environment focus)
+- UX Researcher (Spatial Design background)
+- Business Analyst (Systems Thinking approach)
+
+## Key Assets
+
+- **Headshot**: `/public/Kristin Ridge LinkedIn.jpeg` - Professional photo displayed in hero section
+- **Resume**: `/public/Kristin-Ridge-Resume-2025.pdf` - Downloadable PDF resume
+- **Portfolio**: Referenced but hosted externally at issuu.com/kristinridge/docs/kristin_ridge_portfolio_2023

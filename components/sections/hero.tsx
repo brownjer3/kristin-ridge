@@ -3,6 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Download, Briefcase, BookOpen, Users } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 import { motion } from "framer-motion";
 
 export function HeroSection() {
@@ -47,6 +48,24 @@ export function HeroSection() {
               <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
             </span>
             Open to New Opportunities
+          </motion.div>
+
+          {/* Profile Image */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ delay: 0.25 }}
+            className="mb-8"
+          >
+            <div className="relative w-32 h-32 md:w-40 md:h-40 mx-auto">
+              <Image
+                src="/Kristin Ridge LinkedIn.jpeg"
+                alt="Kristin Ridge"
+                fill
+                className="rounded-full object-cover border-4 border-primary/20"
+                priority
+              />
+            </div>
           </motion.div>
 
           {/* Main Heading */}
@@ -119,7 +138,7 @@ export function HeroSection() {
               </Link>
             </Button>
             <Button size="lg" variant="outline" asChild>
-              <a href="/resume.pdf" download>
+              <a href="/Kristin-Ridge-Resume-2025.pdf" download>
                 <Download className="mr-2 h-4 w-4" />
                 Download Resume
               </a>
